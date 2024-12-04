@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>To-do App</h1>
+      <div id="tasks">
+        <!-- Tasks will be loaded here -->
+      </div>
+      <form id="task-form">
+        <input
+          type="text"
+          id="description"
+          placeholder="Task description"
+          required
+        />
+        <input type="text" id="category" placeholder="Category" required />
+        <button type="submit">Add Task</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
